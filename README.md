@@ -12,3 +12,5 @@ loquesea
 ## Testing conflict
 
 ## Add changes in feature-fingerprint
+
+## Add changes in feature-fingerprint from github cloud
