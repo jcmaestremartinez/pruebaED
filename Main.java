@@ -14,9 +14,15 @@ public class Main {
         double num1 = scanner.nextDouble();
         System.out.println("Ingrese el segundo número:");
         double num2 = scanner.nextDouble();
-
+ 	switch (opcion) {
+            case 2:
+                Resta resta = new Resta();
+                System.out.println("Resultado: " + resta.calcular(num1, num2));
+                break;
+            default:
+                System.out.println("Opción no válida.");
+        }
       
-
         scanner.close();
     }
 }
