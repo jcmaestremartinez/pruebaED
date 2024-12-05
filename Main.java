@@ -15,6 +15,9 @@ public class Main {
         System.out.println("Ingrese el segundo número:");
         double num2 = scanner.nextDouble();
  	switch (opcion) {
+            case 1:
+                Suma suma = new Suma();
+                System.out.println("Resultado: " + suma.calcular(num1, num2));
             case 2:
                 Resta resta = new Resta();
                 System.out.println("Resultado: " + resta.calcular(num1, num2));
