@@ -17,7 +17,8 @@ public class Main {
  	switch (opcion) {
             case 1:
                 Suma suma = new Suma();
-                System.out.println("Resultado: " + suma.calcular(num1, num2));
+                System.out.println("---------------------------");
+                System.out.println("Resultados: " + suma.calcular(num1, num2));
             case 2:
                 Resta resta = new Resta();
                 System.out.println("Resultado: " + resta.calcular(num1, num2));
